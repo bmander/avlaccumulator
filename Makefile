@@ -1,2 +1,2 @@
 all: main.java
-	javac main.java
+	javac -cp its.app.jar main.java 
