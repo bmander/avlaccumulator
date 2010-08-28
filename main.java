@@ -1,9 +1,14 @@
-import its.backbone.sdd.SddReceiver;
+import java.io.IOException;
 
 class Main {
 
   public static void main(String args[]) {
-    System.out.println( "Hello, world!" );
+    try {
+      SddArchiver sddArchiver = new SddArchiver();
+      System.out.println( sddArchiver );
+    } catch( IOException e ) {
+      System.out.println( e );
+    }
   }
 
 }

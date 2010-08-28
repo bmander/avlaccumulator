@@ -1,2 +1,2 @@
-all: main.java
-	javac -cp its.app.jar main.java 
+all: main.java SddArchiver.java
+	javac -cp its.app.jar main.java SddArchiver.java
